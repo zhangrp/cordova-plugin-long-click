@@ -13,7 +13,7 @@
 
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="AILongClick" >
+            <feature name="LongClick" >
                 <param name="android-package" value="com.hh.cordova.plugin.LongClickPlugin"/>
                 <param name="onload" value="true" />
             </feature>
@@ -24,7 +24,7 @@
 
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="AILongClick">
+            <feature name="LongClick">
                 <param name="ios-package" value="LongClickPlugin"/>
                 <param name="onload" value="true"/>
             </feature>
